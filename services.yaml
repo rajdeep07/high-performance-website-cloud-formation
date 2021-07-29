@@ -21,7 +21,7 @@ Parameters:
   WebServerImageId:
     Description: Web serve image id
     Type: String
-    Default: ami-00a54827eb7ffcd3c # Ubuntu Server 18.04 LTS
+    Default: ami-06d51e91cea0dac8d # Ubuntu Server 18.04 LTS
 
   WebServerVolumeSize:
     Description: Web server disk volume size
@@ -241,6 +241,7 @@ Resources:
   # you must also create a CloudWatch alarm that monitors a CloudWatch metric for your
   # Auto Scaling group. Note that you can associate a CloudWatch alarm with only one
   # scaling policy
+  
   WebServerCPUPolicy:
     Type: AWS::AutoScaling::ScalingPolicy
     Properties:

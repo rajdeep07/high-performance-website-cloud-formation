@@ -11,7 +11,7 @@ case $ACTION in
     --template-body file://services.yaml \
     --parameters file://services-parameters.json \
     --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" \
-    --region=ap-southeast-2
+    --region=us-west-2
     ;;
 
   update)

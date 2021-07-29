@@ -10,7 +10,7 @@ case $ACTION in
     --stack-name $STACK_NAME \
     --template-body file://network.yaml \
     --parameters file://network-parameters.json \
-    --region=ap-southeast-2
+    --region=us-west-2
     ;;
 
   update)
